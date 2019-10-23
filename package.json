@@ -1,0 +1,21 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./build/app.js",
+    "scripts": {
+        "start": "tsc && nodemon ./build/app.js",
+        "build": "tsc -w",
+        "watcher": "nodemon ./build/app.js"
+    },
+    "keywords": [],
+    "author": "AVTomarev",
+    "license": "???",
+    "dependencies": {
+        "@types/ws": "^6.0.3",
+        "ws": "^7.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
